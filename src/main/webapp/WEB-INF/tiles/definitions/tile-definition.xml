@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<definition name="baseLayout" template="/WEB-INF/tiles/template/baseLayout.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<!-- <put-attribute name="heading" value="" /> -->
+		<put-attribute name="tagline" value="" />
+ 		<put-attribute name="navigation" value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+	
+	<definition name="baseLayoutC" template="/WEB-INF/tiles/template/baseLayoutC.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<!-- <put-attribute name="heading" value="" /> -->
+		<put-attribute name="tagline" value="" />
+ 		<put-attribute name="navigation" value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+	
+	<definition name="baseLayoutS" template="/WEB-INF/tiles/template/baseLayoutS.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<!-- <put-attribute name="heading" value="" /> -->
+		<put-attribute name="tagline" value="" />
+ 		<put-attribute name="navigation" value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+	
+	<definition name="baseLayoutA" template="/WEB-INF/tiles/template/baseLayoutA.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<!-- <put-attribute name="heading" value="" /> -->
+		<put-attribute name="tagline" value="" />
+ 		<put-attribute name="navigation" value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+	
+	<definition name="baseLayoutV" template="/WEB-INF/tiles/template/baseLayoutV.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<!-- <put-attribute name="heading" value="" /> -->
+		<put-attribute name="tagline" value="" />
+ 		<put-attribute name="navigation" value="/WEB-INF/tiles/template/navigation.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+	
+
+ 	<definition name="welcome" extends="baseLayout">
+		<put-attribute name="title" value="E-selling" />
+<!-- 		<put-attribute name="heading" value="E-Selling -Heading" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
+	</definition>
+		
+		
+	<definition name="CustomerSignUp" extends="baseLayout">
+		<put-attribute name="title" value="Eselling" />
+		<!-- <put-attribute name="heading" value="My Items" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/CustomerSignUp.jsp" />
+	</definition>
+	<definition name="VendorSignUp" extends="baseLayout">
+		<put-attribute name="title" value="E-Selling" />
+		<!-- <put-attribute name="heading" value="E-Selling -Heading" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/VendorSignUp.jsp" />
+	</definition>
+	
+	 	<definition name="searchProducts" extends="baseLayoutS">
+		<put-attribute name="title" value="SearchProducts" />
+		<!-- <put-attribute name="heading" value="Search for your favourite items here!" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/searchProducts.jsp" />
+	</definition>
+	
+	<definition name="randomSearch" extends="baseLayout">
+		<put-attribute name="title" value="My Home" />
+		<!-- <put-attribute name="heading" value="Good Morning" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/randomSearch.jsp" />
+	</definition>
+	
+	
+	
+	 	<definition name="CustomerPage" extends="baseLayoutC">
+		<put-attribute name="title" value="Customers" />
+		<!-- <put-attribute name="heading" value="Search for your favourite items here!" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/CustomerPage.jsp" />
+	</definition>
+	
+		 	<definition name="pendingProducts" extends="baseLayoutA">
+		<put-attribute name="title" value="PendingProducts" />
+		<!-- <put-attribute name="heading" value="PendingProducts" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/pendingProducts.jsp" />
+	</definition>
+		<definition name="VendorPage" extends="baseLayoutV">
+		<put-attribute name="title" value="Vendor" />
+		<!-- <put-attribute name="heading" value="Vendor" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/VendorPage.jsp" />
+	</definition>
+
+		<definition name="addProduct" extends="baseLayoutV">
+		<put-attribute name="title" value="Vendor" />
+		<!-- <put-attribute name="heading" value="Vendor" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/addProduct.jsp" />
+	</definition>
+	
+		<definition name="AdminPage" extends="baseLayoutA">
+		<put-attribute name="title" value="Admin" />
+		<!-- <put-attribute name="heading" value="Admin" /> -->
+ 		<put-attribute name="body" value="/WEB-INF/jsp/AdminPage.jsp" />
+	</definition>
+	
+	<definition name="login" extends="baseLayout">
+		<put-attribute name="title" value="Login" />
+		<!-- <put-attribute name="heading" value="Login" /> -->
+<!-- 		<put-attribute name="tagline" value="Enter your Credentials" /> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	
+	<definition name="myProducts" extends="baseLayoutV">
+		<put-attribute name="title" value="Payment" />
+		<!-- <put-attribute name="heading" value="Payment" /> -->
+		<!-- <put-attribute name="tagline" value="Enter credit card details" /> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/myProducts.jsp" />
+	</definition> 	
+	 	
+
+	 	
+</tiles-definitions>

@@ -1,0 +1,186 @@
+
+
+
+#nav-search {
+    margin-top: 0;
+    padding-top: 11px;
+    padding-right: 25px;
+    position: relative;
+    display: block;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-box-sizing: border-box;
+    width: auto;
+    margin: 10px 0 0;
+}
+
+.nav-left{
+    position: relative;
+    height: 35px;
+    float: left;
+    width: auto;
+    display: inline-block;
+}
+
+.nav-search-scope {
+    background-color: #f3f3f3;
+    background-image: none;
+    border-left: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    position: relative;
+    float: left;
+    height: 35px;
+    margin: 0;
+    padding-left: 5px;
+    overflow: hidden;
+    border: 1px solid #cdcdcd;
+}
+
+.nav-search-facade {
+    top: 1px;
+    position: relative;
+    float: left;
+    cursor: default;
+    overflow: hidden;
+}
+
+.nav-search-label {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #777;
+    font-size: 12px;
+    line-height: 33px;
+    margin-right: 21px;
+    margin-left: 5px;
+}
+
+.nav-icon {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #a0a0a0;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.nav-search-dropdown {
+    position: absolute;
+    display: block;
+    top: -1px;
+    left: 0;
+    height: 35px;
+    width: auto;
+    font-family: arial,sans-serif;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;
+    border: 0;
+    line-height: 35px;
+}
+
+.nav-right {
+    min-width: 0;
+    position: relative;
+    height: 35px;
+}
+
+.nav-search-submit {
+    background-color: #febd69;
+    background-image: none;
+    border: none;
+    width: 45px;
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    border-color: #485059 #2c3137 #363c43 #485059;
+    border-radius: 0 4px 4px 0;
+    background-position: 0 -381px;
+}
+
+#nav-search-submit-text.nav-sprite {
+    background-position: -10px -290px;
+    width: 21px;
+    height: 21px;
+    text-indent: -500px;
+    top: 7px;
+}
+
+.nav-search-submit-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: arial,sans-serif;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*.nav-sprite, .nav-sprite-v1 .nav-icon {
+  background-image: url(http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-32-v1._V327533540_.png);
+  background-repeat: repeat-x;
+}*/
+
+.nav-fill {
+    overflow: hidden;
+    height: 35px;
+    zoom: 1;
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+}
+
+.nav-search-field {
+  border: none;
+  position: relative;
+  height: 35px;
+  width: 606px;
+  background: #fff;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #cdcdcd;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  //width: 100%;
+  line-height: 15px;
+  padding: 6px 10px 6px 0;
+  margin: 0;
+  border: 0;
+  height: 33px;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  background: 0 0;
+  color: #111;
+  outline: 0;
+  -webkit-appearance: none;
+  box-shadow: none;
+  text-indent: 8px;
+}
+
+#nav-iss-attach {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  line-height: 1;
+}
